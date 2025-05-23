@@ -1,0 +1,56 @@
+.customer-review-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .review-card{
+    background-color: #f3f0f0;
+    width: 25vw;
+    margin-left: 90px;
+    height: 20vh;
+  }
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stars {
+    color: #f39c12;
+  }
+  
+  .star {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .full-star {
+    color: #f39c12;
+  }
+  
+  .half-star {
+    color: #f39c12;
+  }
+  
+  .empty-star {
+    color: #ccc;
+  }
+  
+  .review-text {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .review-date {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+  }
+  

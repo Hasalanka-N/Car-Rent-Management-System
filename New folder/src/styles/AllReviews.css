@@ -1,0 +1,22 @@
+/* AllReviews.css */
+.all-reviews-container {
+  /* background-color: #000; */
+  background-color: gray;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.go-back-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.go-back-link:hover {
+  background-color: #333;
+}

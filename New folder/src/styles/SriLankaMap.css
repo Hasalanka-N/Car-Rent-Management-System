@@ -1,0 +1,20 @@
+.map-container {
+    position: relative;
+    max-width: 600px;
+  }
+  
+  .map-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .marker {
+    position: absolute;
+    color: orange;
+    font-weight: bold;
+    background: rgba(0,0,0,0.6);
+    padding: 3px 6px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+  }
+  

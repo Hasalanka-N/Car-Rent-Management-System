@@ -1,0 +1,35 @@
+.my-booking-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .my-booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-left .car-img { width: 160px; height: auto; border-radius: 12px; object-fit: cover; }
+  .card-middle { flex: 1; }
+  .car-info .car-name { font-size: 1.5rem; font-weight: 600; margin-bottom: 4px; }
+  .company-name { font-size: 0.95rem; color: #777; margin-bottom: 12px; }
+  .features-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+  .feature-tag { background-color: #e8f0fe; color: #1a73e8; padding: 6px 10px; border-radius: 20px; font-size: 0.85rem; }
+  .location-info { font-size: 0.9rem; color: #444; margin-bottom: 6px; display: flex; align-items: center; }
+  .location-pin { margin-right: 6px; }
+  .offer-text { color: #d93025; font-weight: bold; font-size: 0.9rem; }
+  .card-right { text-align: right; display: flex; flex-direction: column; justify-content: space-between; height: 100%; }
+  .price-details .price-day { font-size: 1.3rem; font-weight: bold; color: #1a73e8; margin-bottom: 4px; }
+  .per-day { font-size: 0.8rem; color: #555; margin-left: 4px; }
+  .total-price { font-size: 1rem; font-weight: 500; color: #333; }
+  .total-label { font-size: 0.75rem; color: #888; margin-left: 4px; }
+  .view-btn { margin-top: 10px; padding: 10px 18px; background-color: #1a73e8; color: white; border: none; border-radius: 10px; font-size: 0.95rem; cursor: pointer; transition: background-color 0.3s ease; }
+  .view-btn:hover { background-color: #155ab6; }
+  

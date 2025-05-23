@@ -1,0 +1,23 @@
+.customer-reviews {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cus-review {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .review-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 90%;
+  }
+  

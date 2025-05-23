@@ -1,0 +1,82 @@
+.about-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-hero {
+    background: linear-gradient(to right, #003366, #006699);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .about-section h2 {
+    color: #003366;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  
+  .about-section li {
+    margin-bottom: 10px;
+    padding-left: 1.2em;
+    position: relative;
+  }
+  
+  .about-section li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #006699;
+    font-weight: bold;
+  }
+  
+  /* Fade-up effect */
+  .hidden {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  
+  .fade-up {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

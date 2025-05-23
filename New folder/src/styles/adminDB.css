@@ -1,0 +1,32 @@
+.admindash{
+    margin: 0;
+    /* background-color: red; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-nav{
+    flex: 0.5;
+    background-color: transparent;
+}
+
+.admincontaner{
+    flex: 9;
+}
+
+.admin-profile{
+    height: 80px;
+    border-bottom: 1px solid gray; 
+    display: flex;
+    flex-direction: row;
+}
+
+.ap-left{
+    flex: 5;
+}
+
+.ap-right{
+    flex: 5;
+}

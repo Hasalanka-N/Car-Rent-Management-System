@@ -1,0 +1,38 @@
+.location-card {
+    position: relative;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .location-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .location-label {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .arrow {
+    background-color: #f26d00;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  

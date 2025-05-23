@@ -1,0 +1,102 @@
+.vehicle_main{
+    border-radius: 10px;
+    height: 50vh;
+    width: 18vw;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+.vehicle-image {
+    width: 95%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .vehiclecard-data {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+   /* gap: 5px;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.vehicle-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+.fuel{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Transmission{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Capacity{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.vehiclecard-bottom{
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vehiclecard-bottom {
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Price Section */
+.vehiclecard-bottom strong {
+    font-size: 15px;
+    color: #ff4757;
+}
+
+.day {
+    font-size: 11px;
+    color: rgb(159, 159, 159);
+    margin-left: 5px;
+}
+
+.vehiclecard-top h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    color: #2c3e50;
+}
+
+.vehiclecard-top .type{
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: darkgrey;
+    font-size: 12px;
+}
+
+
+
+
+.vehicle-card-link:hover {
+    transform: scale(1.03); /* Slight zoom */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhance shadow */
+}

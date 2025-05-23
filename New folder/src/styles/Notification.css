@@ -1,0 +1,49 @@
+.notifi-nav{
+    height: 10vh;
+}
+
+.notifi-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.notifi-left{
+    flex: 5;
+    background-color: rgb(220, 220, 220);
+    min-height: 90vh;
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    flex-direction: column;
+}
+
+/*.notifi-right{
+    flex: 4.5;
+}*/
+
+.notifi-right {
+    flex: 4.5;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+    transition: flex 0.3s ease-in-out;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    min-height: 80vh;
+}
+
+.notifi-right.expanded {
+    flex: 4.5;
+    display: flex;
+}
+
+.close-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

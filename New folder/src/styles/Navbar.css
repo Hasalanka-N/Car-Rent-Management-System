@@ -1,0 +1,91 @@
+.nav_main{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(177, 176, 176, 0.2);
+}
+
+.nav_left{
+    flex: 2.5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_center{
+    flex: 5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav_right{
+    flex: 2.5;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.nav_button.signup {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 30px;
+}
+
+.icons_container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.notification_icon {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.notification_icon:hover {
+    transform: scale(1.1);
+}
+
+.nav_link {
+    text-decoration: none; 
+    color: white !important; 
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav_link:hover {
+    color: #ffcc00 !important; 
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/* Navbar.css */
+/*  */
